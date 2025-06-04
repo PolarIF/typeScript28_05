@@ -21,12 +21,12 @@ console.log('Não identidade restrita:', a !== b);
 
 //lógicos
 let x: boolean = true;
-let y: boolean = false;
+let _y: boolean = false;
 
-console.log('AND', x && y);
-console.log('OR', x || y);
+console.log('AND', x && _y);
+console.log('OR', x || _y);
 console.log('NOT', !x);
 
 //operador condicional ternário
-let idade: number = 18;
-let podeDirigir: string = idade >= 18 ? 'Pode dirigir' : 'Não pode dirigir';
+let _idade: number = 18;
+let podeDirigir: string = _idade >= 18 ? 'Pode dirigir' : 'Não pode dirigir';
